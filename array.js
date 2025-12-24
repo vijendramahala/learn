@@ -1,5 +1,3 @@
-alert('Are you sure leran javaScript');
-
 let car = ['Bugatti', 'mercedes', 'G63'];
 car.push("GT-MT-3"); //add value
 

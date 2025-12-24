@@ -7,23 +7,47 @@
 </head>
 <body>
     <style>
-        .button {
+        *{
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+        .continer{
+            
+        }
+        .name{
+            margin: 10px;
+            width: 300px;
+            height: 40px;
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif;
+            border-radius: 10px;
+
+        }
+        /* .button {
             width: 10%;
             height: 15%;
             color: rgb(0, 0, 0);
             background-color: bisque;
-        }
+        } */
             </style>
 
-    <script src="array.js"></script> 
+    <!-- <script src="array.js"></script>  -->
     <script>
-        window.alert(500+500)
+        // window.alert(420+420)
     </script>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <i>Aliquid ullam quae, veritatis dolore sunt eligendi</i> laborum atque facere <br> repudiandae consequatur iste reprehenderit beatae dolores ducimus soluta necessitatibus at <br> qui aspernatur maiores praesentium fuga, natus ad sapiente! <br> Aperiam reiciendis architecto quas unde aliquid nulla eius, <br>
+    <!-- <p onclick="window.print()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <i>Aliquid ullam quae, veritatis dolore sunt eligendi</i> laborum atque facere <br> repudiandae consequatur iste reprehenderit beatae dolores ducimus soluta necessitatibus at <br> qui aspernatur maiores praesentium fuga, natus ad sapiente! <br> Aperiam reiciendis architecto quas unde aliquid nulla eius, <br> -->
+
 
     <!-- <button class="button" type="button", onclick="document.write(100-200*2/6)"> Try it </button> -->
-    <button class="button", onclick="window.print()"> registered </button>
+    <!-- <button class="button", onclick="window.print()"> registered </button> -->
+
+    <div class="continer">
+        <label for="name">Employee Name</label>
+        <input onclick="window.print()" class="name" type="text" name="name">
+        <label for="name">Employee Name</label>
+        <input class="name" type="text" name="name">
+    </div>
     
 </body>
 </html>
