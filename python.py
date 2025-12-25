@@ -8,7 +8,7 @@ print(y)
 print(type(x))
 print(type(y))
 
-#python allows you to assign values to multiple variables in one line
+#python allows to assign values to multiple variables in one line
 
 car, model, number = "Maruti", 2019, "RJ78ML8987"
 
@@ -19,7 +19,7 @@ print(number)
 print(car, model, number)
 
 # one values to multiple variables
-# and you can assign the same value to multiple variables in one line
+# and can assign the same value to multiple variables in one line
 
 variable1 = variable2 = variable3 = "Hellow"
 
@@ -28,7 +28,7 @@ print(variable2)
 print(variable3)
 
 # unpack collection
-# if you have a collection of values in a list, tuple etc. Python allows you to extract the values into variable .
+#have a collection of values in a list, tuple etc. Python allows you to extract the values into variable .
 # This IS CALLED unpack
 
 cars = ["Maruti", "Rolls-Royce", "Bentley"]
@@ -40,7 +40,6 @@ print(rollsroyce)
 print(bentley)
 
 # globle variable
-
 # Variables that are created outside of a function are known as global variables.
 
 model = 1969
@@ -62,7 +61,7 @@ mystudent()
 
 print("This is a " + student)
 
-# Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
+# Normally, when i create a variable inside a function, that variable is local, and can only be used inside that function.
 # To create a global variable inside a function, you can use the global keyword.
 
 def mycode():
