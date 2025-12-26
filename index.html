@@ -7,21 +7,45 @@
 </head>
 <body>
     <style>
+        #main {
+            margin: auto;
+            width: 900px;
+            border: 3px solid #000000;
+            border-style: dotted;
+            padding: 25px;
+            /* border-top-left-radius: 25px;
+            border-top-right-radius: 25px; */
+            border-radius: 30px;
+            flex-direction: column;
+            display: flex;
+            gap: 30px;
+
+        }
         *{
             background-color: rgb(255, 255, 255);
             color: black;
         }
-        .continer{
-            
-        }
-        .name{
-            margin: 10px;
-            width: 300px;
-            height: 40px;
-            box-sizing: border-box;
-            font-family:'Times New Roman', Times, serif;
-            border-radius: 10px;
 
+        .name{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid black;
+            gap: 20%;
+        }
+
+        .datebar {
+            margin-right: auto;
+            padding-left: 76%;
+        }
+        .signature {
+            margin-right: auto;
+            padding-left: 76%;
+        }
+        .continer2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         /* .button {
             width: 10%;
@@ -29,7 +53,8 @@
             color: rgb(0, 0, 0);
             background-color: bisque;
         } */
-            </style>
+
+</style>
 
     <!-- <script src="array.js"></script>  -->
     <script>
@@ -41,13 +66,59 @@
 
     <!-- <button class="button" type="button", onclick="document.write(100-200*2/6)"> Try it </button> -->
     <!-- <button class="button", onclick="window.print()"> registered </button> -->
-
-    <div class="continer">
-        <label for="name">Employee Name</label>
-        <input onclick="window.print()" class="name" type="text" name="name">
-        <label for="name">Employee Name</label>
-        <input class="name" type="text" name="name">
+     <h1 style="text-align: center; margin: 0%; padding: 0%;">MODERN SOFTWARE TECHNOLOGIES PRIVATE LIMITED </h1>
+     <h3 style="text-align: center; margin: 0%; padding: 0%;margin-bottom: 2%;">(Bais Godam Jaipur 2nd Floor, Dev Krishnam, Jaipur, Rajsthan)</h3>    
+<div id="main">
+    <h2 style="text-align: center; margin: 0%; padding: 0%;">Leave Application Form</h2>
+    <div class="datebar">
+        <label for="date"> Date: </label>
+        <input onclick="window.print()" class="name" id="date" type="datename" name="date">
     </div>
-    
+
+    <div class="continer1">
+        <label for="name"> Name: </label>
+        <input style="width: 45%;" class="name" type="text" name="name">
+        <label for="name">Employee ID:</label>
+        <input style="width: 38%;" class="name" type="text" name="name">
+    </div>
+
+    <div class="continer2">
+        <label for="designation"> Designation: </label>
+        <input style="width:30%;" class="name" type="text" name="designation">
+        <label for="department"> Department: </label>
+        <input style="width: 45%;" class="name" type="text" name="department">
+    </div>
+    <div class="continer3">
+        <label for="msg"> No of Days for leave required for  </label>
+        <input style="width:50%;" class="name" type="text" name="msg">days.
+    </div>
+
+    <div class="continer4">
+        <label for="fromdate"> From date: </label>
+        <input style="width:40%;" class="name" type="text" name="fromdate">
+        <label for="todate"> To date: </label>
+        <input style="width: 44%;" class="name" type="text" name="todate">
+    </div>
+
+    <div class="continer4">
+        <label for="reason"> Reason for Leave  </label>
+        <input style="width:85%;" class="name" type="text" name="reason">
+    </div>
+
+     <div class="signature">
+        <input style="margin-bottom: 8%; width: 90%;" class="name" id="date" type="text" name="signature">
+        <label style="padding-left: 6%;" for="date"> Signature of the Employee </label>
+    </div>
+
+    <div class="continer4">
+        <label for="reason"> Reported To  </label>
+        <input style="width:45%;" class="name" type="text" name="reason">
+    </div>
+    <div class="continer4">
+        <label for="reason"> Approved By  </label>
+        <input style="width:45%;" class="name" type="text" name="reason">
+    </div>
+</div>
+
 </body>
 </html>
